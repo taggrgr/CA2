@@ -17,7 +17,8 @@ public class CA2 {
         System.out.println("1. Find the First Repeated Element");
         System.out.println("2. Multiplication Table Using 2D Array");
         System.out.println("3. Diagonal Sum of a Matrix");
-        System.out.print("Enter your choice (1, 2, or 3): ");
+        System.out.println("4. Spiral Traversal of a Matrix");
+        System.out.print("Enter your choice (1, 2, 3 or 4): ");
         int choice = scanner.nextInt();
         
         switch (choice) {
@@ -29,6 +30,9 @@ public class CA2 {
                 break;
             case 3:
                 task3.handleThirdTask(scanner); // Task 3 logic
+                break;
+            case 4:
+                task4.handleFourthTask(scanner); // Task 4 logic
                 break;
             default:
                 System.out.println("Invalid choice. Exiting.");
