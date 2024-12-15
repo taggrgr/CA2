@@ -18,7 +18,8 @@ public class CA2 {
         System.out.println("2. Multiplication Table Using 2D Array");
         System.out.println("3. Diagonal Sum of a Matrix");
         System.out.println("4. Spiral Traversal of a Matrix");
-        System.out.print("Enter your choice (1, 2, 3 or 4): ");
+        System.out.println("5. Bubble Sort. Sorting an Array");
+        System.out.print("Enter your choice (1, 2, 3, 4 or 5): ");
         int choice = scanner.nextInt();
         
         switch (choice) {
@@ -34,6 +35,10 @@ public class CA2 {
             case 4:
                 task4.handleFourthTask(scanner); // Task 4 logic
                 break;
+            case 5:
+                task5.handleFifthTask(scanner); // Task 5 logic
+                break;
+                
             default:
                 System.out.println("Invalid choice. Exiting.");
         }
